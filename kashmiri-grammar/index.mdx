@@ -1,0 +1,308 @@
+---
+title: "Kashmiri grammar rules"
+description: "A practical Mintlify page for Kashmiri grammar structure, noun behavior, case marking, postpositions, pronouns, verb patterns, and Kashmiri font demos."
+---
+
+<style>{`
+@font-face {
+  font-family: 'Narqalam';
+  src: url('/fonts/Narqalam.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gulmarg Nastaleeq';
+  src: url('/fonts/Gulmarg-Nastaleeq.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Afaan Koshur';
+  src: url('/fonts/Afaan-Koshur.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.kashmiri-text {
+  direction: rtl;
+  text-align: right;
+  line-height: 2;
+  font-size: 2rem;
+}
+
+.font-narqalam {
+  font-family: 'Narqalam', serif;
+}
+
+.font-gulmarg {
+  font-family: 'Gulmarg Nastaleeq', serif;
+}
+
+.font-afaan {
+  font-family: 'Afaan Koshur', serif;
+}
+`}</style>
+
+## Overview
+
+This page gives you a compact working reference for **Kashmiri grammar**. It is designed for learners, annotators, translators, and builders who need a fast structural overview instead of a full academic grammar.
+
+The most important baseline ideas are:
+
+- Kashmiri commonly uses **subject-object-verb** order.
+- Kashmiri nouns belong to **masculine** or **feminine** gender.
+- Kashmiri distinguishes **singular** and **plural**.
+- **Case marking** and **postpositions** carry a lot of meaning.
+- Verbs can change with **gender**, **number**, and construction type.
+
+## Kashmiri font demo in Mintlify
+
+This page now uses the **correct display names** for the three fonts:
+
+- **Narqalam**
+- **Gulmarg Nastaleeq**
+- **Afaan Koshur**
+
+### Narqalam
+
+<div className="font-narqalam kashmiri-text">تُہۍ کٔرۍ یِم جُملہٕ تبدیل؟</div>
+
+### Gulmarg Nastaleeq
+
+<div className="font-gulmarg kashmiri-text">تُہۍ کٔرۍ یِم جُملہٕ تبدیل؟</div>
+
+### Afaan Koshur
+
+<div className="font-afaan kashmiri-text">تُہۍ کٔرۍ یِم جُملہٕ تبدیل؟</div>
+
+### Font loading pattern used here
+
+```css
+@font-face {
+  font-family: 'Narqalam';
+  src: url('/fonts/Narqalam.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Gulmarg Nastaleeq';
+  src: url('/fonts/Gulmarg-Nastaleeq.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Afaan Koshur';
+  src: url('/fonts/Afaan-Koshur.woff2') format('woff2');
+}
+```
+
+## Core rules
+
+### Rule 1 — Learn nouns with gender
+
+Kashmiri nouns belong to one of two grammatical genders:
+
+- **masculine**
+- **feminine**
+
+You should learn noun gender as part of the word itself, because gender affects agreement behavior.
+
+### Rule 2 — Expect singular and plural
+
+Kashmiri distinguishes:
+
+- **singular**
+- **plural**
+
+Plural formation is not fully uniform across all nouns. Some patterns are regular, but not every noun behaves the same way.
+
+### Rule 3 — Verb-final order is the safest baseline
+
+A common default sentence pattern is:
+
+```text
+Subject + Object + Verb
+```
+
+This means the verb often comes at the end of the clause.
+
+### Rule 4 — Cases matter
+
+Kashmiri meaning is not carried by word order alone. Nouns and pronouns can appear in different **case forms**, especially in possession, location, indirect object, and past constructions.
+
+## Nouns and agreement
+
+### Gender
+
+Every noun is treated as masculine or feminine. This is grammatical gender, not just natural gender.
+
+### Number
+
+Every noun can be singular or plural, but plural patterns can differ by noun type.
+
+### Agreement
+
+Gender and number can influence:
+
+- adjectives
+- pronouns
+- verbs
+
+That makes agreement a central part of grammatical accuracy.
+
+## Cases and postpositions
+
+Kashmiri uses several important case relations. A practical learner-level summary is below.
+
+| Case or function | Practical meaning |
+| --- | --- |
+| Nominative | basic subject form |
+| Dative | to, for, indirect object, experiencer-like roles |
+| Genitive or possessive | of, belonging to |
+| Locative | in, at, near, location relations |
+| Agentive or ergative-like role | important in some past or perfective constructions |
+
+### Postpositions
+
+Like Urdu and Hindi, Kashmiri relies heavily on **postpositions**.
+
+That means the marker usually comes **after** the noun phrase, not before it.
+
+A useful mental template is:
+
+```text
+Noun or pronoun + case form + postposition
+```
+
+## Pronouns
+
+Kashmiri grammar sources describe a rich pronoun system, including:
+
+- personal pronouns
+- possessive pronouns
+- demonstrative pronouns
+- interrogative pronouns
+- relative and reflexive forms
+
+### Demonstratives
+
+Kashmiri is often described as having a **three-term demonstrative system**, roughly corresponding to:
+
+- this
+- that
+- that farther away or out of sight
+
+That makes deixis richer than a simple English two-way distinction.
+
+## Verbs
+
+Verb behavior is one of the most important parts of Kashmiri grammar.
+
+### Agreement
+
+Verb forms can reflect:
+
+- gender
+- number
+- sometimes person
+- construction type
+
+### Past constructions
+
+Some past and perfective constructions show **agentive** or **ergative-like** behavior. This means agreement may not always follow a simple subject-only rule.
+
+### Practical rule
+
+When building a sentence, decide these in order:
+
+1. what the main verb is
+2. whether the sentence is present, past, or another form
+3. whether the clause needs a special case-marked subject or object
+4. what agreement the verb should show
+
+## Common sentence patterns
+
+These patterns are good safe defaults.
+
+### Pattern 1
+
+```text
+Subject + Object + Verb
+```
+
+### Pattern 2
+
+```text
+Subject + Postpositional phrase + Verb
+```
+
+### Pattern 3
+
+```text
+Subject + Object + Postpositional phrase + Verb
+```
+
+### Pattern 4
+
+```text
+Possessor phrase + Noun + Predicate
+```
+
+## Quick cheat sheet
+
+| Topic | Short rule |
+| --- | --- |
+| Word order | usually SOV |
+| Gender | masculine and feminine |
+| Number | singular and plural |
+| Adpositions | mostly postpositions |
+| Case | very important for syntax and meaning |
+| Pronouns | rich personal and demonstrative system |
+| Verb agreement | check gender, number, and construction |
+| Past tense | watch for agentive or ergative-like behavior |
+
+## Practical learner notes
+
+### If you are starting from scratch
+
+Use these as your default workflow:
+
+1. learn nouns together with gender
+2. place the verb at the end
+3. check whether a case-marked form is needed
+4. add postpositions after the noun phrase
+5. confirm verb agreement at the end
+
+### If you are building examples for annotation or teaching
+
+Use short examples first:
+
+```text
+subject + object + verb
+subject + location phrase + verb
+subject + indirect object + object + verb
+```
+
+Then increase complexity gradually.
+
+## Sources
+
+This page was grounded from the Kashmiri grammar and learner materials found in the earlier search, especially:
+
+- **Modern Kashmiri Grammar** — Omkar N. Koul and Kashi Wali
+- **A Grammar of the Kashmiri Language** — T. R. Wade
+- **A Course in Kashmiri Language** — Roop Krishen Bhat
+
+## Scope note
+
+This is a **practical rules page**, not a complete formal grammar. It is meant to be a clean Mintlify reference page you can expand later into separate sections for:
+
+- nouns
+- case system
+- postpositions
+- pronouns
+- tense and aspect
+- examples in Kashmiri script

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Kashmiri Grammar",
+  "description": "A Mintlify documentation page for practical Kashmiri grammar rules, sentence structure, and learner notes.",
+  "colors": {
+    "primary": "#14532D",
+    "light": "#22C55E",
+    "dark": "#14532D"
+  },
+  "favicon": "/favicon.ico",
+  "icons": {
+    "library": "lucide"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Grammar",
+        "groups": [
+          {
+            "group": "Core",
+            "pages": [
+              "index"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Grammar Overview",
+      "href": "/"
+    }
+  }
+}
