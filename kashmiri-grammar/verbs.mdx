@@ -12,21 +12,54 @@ description: "‏زمانہ، موافقت، ماضی ساخت، تہٕ دَتی
   font-display: swap;
 }
 
+/* Kashmiri text keeps RTL shaping; layout is forced to left alignment. */
+#header,
+#page-title,
+#content,
+.mdx-content,
+.rtl-doc,
+.rtl-doc h1,
+.rtl-doc h2,
+.rtl-doc h3,
+.rtl-doc h4,
+.rtl-doc p,
+.rtl-doc li,
+.rtl-doc ul,
+.rtl-doc ol,
+.rtl-doc div,
+.rtl-doc span,
+.eyebrow,
+.breadcrumbs,
+.sidebar-group-header,
+#navigation-items,
+#sidebar-content {
+  text-align: left !important;
+}
+
+#page-title,
+#header,
+#content,
+.mdx-content,
 .rtl-doc {
   direction: rtl;
-  text-align: right;
+}
+
+.rtl-doc {
   line-height: 2.15;
   font-family: 'Narqalam', serif;
 }
 
 .rtl-doc ul, .rtl-doc ol {
-  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 0;
+  list-style-position: outside;
 }
 
 .kash-sample {
-  font-size: 1.45rem;
-  line-height: 2.2;
+  font-size: 1.35rem;
+  line-height: 2.1;
   font-family: 'Narqalam', serif;
+  margin: 0.25rem 0;
 }
 `}</style>
 
@@ -117,5 +150,75 @@ description: "‏زمانہ، موافقت، ماضی ساخت، تہٕ دَتی
 ## خلاصہ
 
 فعل بابہِ منز اَصلی مہارت یَمہِ وقت آسہِ یِتھ تُہۍ صرف لفظ نہٕ بلکہ **بناوٹ** بھی وُچھِو۔
+
+
+## زیادٕ مثالہٕ
+
+### چھُ / چھِ / چھےٚ والی حالتی مثالہٕ
+<div className="kash-sample">اَز چھُ موسم بہتھ خوشگوار۔</div>
+<div className="kash-sample">مےٚ چھُ صبحہ چائے بہتھ پسند۔</div>
+<div className="kash-sample">یہِ کتاب چھِ بہتھ دلچسپ۔</div>
+<div className="kash-sample">گھرِ اندر چھُ خاموشی۔</div>
+<div className="kash-sample">باغس منز پھول خوبصورت چھِ۔</div>
+<div className="kash-sample">وُچھ تمہِ آسمان کتنا صاف چھُ۔</div>
+<div className="kash-sample">بچہ چھُ صحنس منز کھیلَن۔</div>
+<div className="kash-sample">راتہ چھِ ہوا تھوڑی سرد۔</div>
+<div className="kash-sample">شہرِ منز اَز کافی بھیڑ چھِ۔</div>
+<div className="kash-sample">مےٚ سون کُتُر چھُ بہتھ وفادار۔</div>
+<div className="kash-sample">کلاسس منز سب طالب علم موجود چھِ۔</div>
+<div className="kash-sample">ژھٕل کنارِ چھُ منظر نہایت حسین۔</div>
+<div className="kash-sample">تُہۍ چھُوا یہِ خبر پہلے سُنمت؟</div>
+<div className="kash-sample">مےٚ بہن چھِ روز اخبار پران۔</div>
+
+
+### کران / گژھان والی جاری یا عادی بناوٹ
+<div className="kash-sample">تُہۍ کَتھ گژھان بازار؟</div>
+<div className="kash-sample">اسہِ دوست اَز مِلان۔</div>
+<div className="kash-sample">بچہ چھُ صحنس منز کھیلَن۔</div>
+<div className="kash-sample">گامس منز سب لوٗگ ایک دوسرس مدد کران۔</div>
+<div className="kash-sample">تِم چھِ نَوٕ دفترس منز کام کران۔</div>
+<div className="kash-sample">تُہۍ چھُوا کٲٹھۍ پٮ۪ٹھ اکیلے گژھان؟</div>
+<div className="kash-sample">بچۍ آنگنہٕ منز کھیلَن چھِ۔</div>
+<div className="kash-sample">کٲکہٕ حظ روز کھیتس منز محنت کران۔</div>
+<div className="kash-sample">اَسہِ کل صبحس جلدی روانہ گژھان۔</div>
+<div className="kash-sample">اَمہِ کورس منز طالب علم واریاہ محنت کران۔</div>
+<div className="kash-sample">میون کُتُر چھُ دروازس پَتہٕ آرام کران۔</div>
+<div className="kash-sample">میون ساتھی چھُ ہمیشہ سچ باتھ کران۔</div>
+
+
+### ماضی نما مثالہٕ
+<div className="kash-sample">وُچھ تمہِ آسمان کتنا صاف چھُ۔</div>
+<div className="kash-sample">مہمان اَز شامس پٮ۪ٹھ آو۔</div>
+<div className="kash-sample">مےٚ سُہ فلم گژھ کلہِ وُچھنۍ۔</div>
+<div className="kash-sample">مےٚ دوستن ہنٛز محفل بہتھ خوشگوار آو۔</div>
+<div className="kash-sample">بازار بند گژھنے سۭتۍ لوٗگ واپس آو۔</div>
+<div className="kash-sample">تٔہندۍ جوابہٕ سُن مےٚ خوشی آو۔</div>
+<div className="kash-sample">ییٚتہِ وُچھنہٕ سۭتۍ دِل خوش گژھِ۔</div>
+<div className="kash-sample">کھانٕس منز اَز ہاک تہٕ باتہٕ آو۔</div>
+<div className="kash-sample">سفَر دوران اَسہِ بہٕت کٔچھ وُچھ۔</div>
+<div className="kash-sample">مےٚ یارۍ ہُنٛد فون صبحس آو۔</div>
+
+
+### احساس، یاد، پسند، ضرورت
+<div className="kash-sample">اَز چھُ موسم بہتھ خوشگوار۔</div>
+<div className="kash-sample">مےٚ چھُ صبحہ چائے بہتھ پسند۔</div>
+<div className="kash-sample">مےٚ دوستن ہنٛز محفل بہتھ خوشگوار آو۔</div>
+<div className="kash-sample">اَز چھُ موسم بہٕت خوشگوار۔</div>
+<div className="kash-sample">باغس منز گُلن ہٕند خوشبو پھیٚلل۔</div>
+<div className="kash-sample">تٔہندۍ جوابہٕ سُن مےٚ خوشی آو۔</div>
+<div className="kash-sample">ییٚتہِ وُچھنہٕ سۭتۍ دِل خوش گژھِ۔</div>
+<div className="kash-sample">گھرس منز نون چاے ہُند خوشبو چھُ۔</div>
+<div className="kash-sample">خوش رہُن چھُ زندگی ہُند اصل حُسن۔</div>
+<div className="kash-sample">اَز چھُ موسم واریاہ خوشگوار۔</div>
+<div className="kash-sample">میون دل چھُ سحرٕک خاموشی پسند۔</div>
+<div className="kash-sample">اَمہِ دۄہس منز سبنہٕ خوشی محسوس کٔر۔</div>
+
+
+## آن لاین قاعدہٕ نوٹ
+
+- حال tense اکثر مددی فعل تہٕ نامکمل/جاری پہلو لاحقہ سۭتھ بنان۔
+- نامکمل/جاری پہلو صورت منز stem سۭتھ عموماً -ان قسم فعلی صفت آیہِ۔
+- مکمل/ماضی صورتَن منز مفعولی فعل سۭتھ تقسیم شُدہ ایرگیٹو بناوٹ اہم چھ۔
+- فعل ہُنٛد موافقت صرف فاعل سۭتھ نہٕ؛ مفعول یا نامزد جزو سۭتھ تہٕ آسنہٕ ہیکہٕ۔
 
 </div>

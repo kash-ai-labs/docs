@@ -12,21 +12,54 @@ description: "‏کٲشُر نَستعلیق، آواز، تہٕ لکھنہٕ ہ
   font-display: swap;
 }
 
+/* Kashmiri text keeps RTL shaping; layout is forced to left alignment. */
+#header,
+#page-title,
+#content,
+.mdx-content,
+.rtl-doc,
+.rtl-doc h1,
+.rtl-doc h2,
+.rtl-doc h3,
+.rtl-doc h4,
+.rtl-doc p,
+.rtl-doc li,
+.rtl-doc ul,
+.rtl-doc ol,
+.rtl-doc div,
+.rtl-doc span,
+.eyebrow,
+.breadcrumbs,
+.sidebar-group-header,
+#navigation-items,
+#sidebar-content {
+  text-align: left !important;
+}
+
+#page-title,
+#header,
+#content,
+.mdx-content,
 .rtl-doc {
   direction: rtl;
-  text-align: right;
+}
+
+.rtl-doc {
   line-height: 2.15;
   font-family: 'Narqalam', serif;
 }
 
 .rtl-doc ul, .rtl-doc ol {
-  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  padding-right: 0;
+  list-style-position: outside;
 }
 
 .kash-sample {
-  font-size: 1.45rem;
-  line-height: 2.2;
+  font-size: 1.35rem;
+  line-height: 2.1;
   font-family: 'Narqalam', serif;
+  margin: 0.25rem 0;
 }
 `}</style>
 
@@ -77,5 +110,37 @@ description: "‏کٲشُر نَستعلیق، آواز، تہٕ لکھنہٕ ہ
 ## یِتھ بابُک مقصد
 
 یِم صفحہٕ گرائمر کتابُک پورٕ صوتی ابواب نہٕ بدلِتھ، مگر یِہ بات پَکّی کران کہ باقی تمام گرائمر باب **نَستعلیق پڑھتھ** آسان چھ۔
+
+
+## زیادٕ مثالہٕ
+
+یِم جُملہٕ نَستعلیق پڑھنس، اعراب/نشانہٕ وُچھنس، تہٕ آوازَن ہُنٛد فرق سمجھنس خٲطرٕ چھن۔
+
+### مختصر جُملہٕ
+<div className="kash-sample">اَز چھُ موسم بہتھ خوشگوار۔</div>
+<div className="kash-sample">مےٚ چھُ صبحہ چائے بہتھ پسند۔</div>
+<div className="kash-sample">تُہۍ کَتھ گژھان بازار؟</div>
+<div className="kash-sample">یہِ کتاب چھِ بہتھ دلچسپ۔</div>
+<div className="kash-sample">گھرِ اندر چھُ خاموشی۔</div>
+<div className="kash-sample">باغس منز پھول خوبصورت چھِ۔</div>
+<div className="kash-sample">اسہِ دوست اَز مِلان۔</div>
+<div className="kash-sample">وُچھ تمہِ آسمان کتنا صاف چھُ۔</div>
+<div className="kash-sample">بچہ چھُ صحنس منز کھیلَن۔</div>
+<div className="kash-sample">راتہ چھِ ہوا تھوڑی سرد۔</div>
+<div className="kash-sample">مےٚ ماجہ بنٲو گرم کھانا۔</div>
+<div className="kash-sample">یہِ راستہ سیدھا دریاہ تک گژھِ۔</div>
+
+
+### لمبہٕ جُملہٕ
+<div className="kash-sample">میون کنبہ شامس منز گھرس اندرۍ اکٹھ گژھان تہ خوشی سان کھان کھٲن۔</div>
+<div className="kash-sample">میون دوست صبحہٕ اسکولس گژھ تہٕ راستہٕ منز کتاب پران چھُ۔</div>
+<div className="kash-sample">ییٚلہِ سورج غروب گٔیو تیٚلہِ آسمان نارنجی رنگہٕ بھرِ گٔیو۔</div>
+<div className="kash-sample">نَگَرَس ہُنٛد پُران بازار اَز تہِ لوگوں سۭتۍ بَھرِتھ چھُ.</div>
+<div className="kash-sample">مےٚ بُزنۍ چھُ زانہٕ یِتھ مسٲلہٕس ہُنٛد صحیح جواب کُس چھُ.</div>
+<div className="kash-sample">مےٚ معلوٗم چھُ یِتھ کتابہِ منز واریاہ فائدٕ مند باتہٕ چھِ.</div>
+<div className="kash-sample">ماجہِ ہُنٛد دعائیں چھِنہٕ اولاد خٲطرٕ سبھس کھۄتہٕ قیمتی۔</div>
+<div className="kash-sample">راستہٕ کنارس پٮ۪ٹھ چھوٚٹ دکان چای تہٕ کلچہ فروخت کران چھُ۔</div>
+<div className="kash-sample">بہٕ چھُ روزانہٕ صُبحہِ کُتُب خانہٕ منز زانٛنہٕ خٲطرٕ باسَان۔</div>
+<div className="kash-sample">نَنیوُک سوال سُنٛد جواب استادٕ واریاہ آسان لفظنہٕ منز دیو۔</div>
 
 </div>
