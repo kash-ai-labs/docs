@@ -73,5 +73,11 @@
       "label": "‏گرائمر ہوم",
       "href": "/"
     }
+  },
+  "fonts": {
+    "family": "Narqalam",
+    "source": "/fonts/Narqalam.woff2",
+    "format": "woff2",
+    "weight": 400
   }
 }
