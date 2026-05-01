@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Kashmiri Grammar",
-  "description": "A Mintlify documentation page for practical Kashmiri grammar rules, sentence structure, and learner notes.",
+  "name": "کٲشُر گرائمر",
+  "description": "کٲشُر زبانہٕ خٲطرٕ نَستعلیق منز تیار کرنہٕ آمُت عملی گرائمر دستاویز۔",
   "colors": {
     "primary": "#14532D",
     "light": "#22C55E",
@@ -18,12 +18,45 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Grammar",
+        "tab": "گرائمر",
         "groups": [
           {
-            "group": "Core",
+            "group": "شروع",
             "pages": [
-              "index"
+              "index",
+              "script-and-sound"
+            ]
+          },
+          {
+            "group": "اسم تہٕ ضمیر",
+            "pages": [
+              "nouns",
+              "pronouns"
+            ]
+          },
+          {
+            "group": "حالت تہٕ نسبت",
+            "pages": [
+              "cases-postpositions"
+            ]
+          },
+          {
+            "group": "فعل",
+            "pages": [
+              "verbs"
+            ]
+          },
+          {
+            "group": "جُملہ",
+            "pages": [
+              "sentence-structure",
+              "examples"
+            ]
+          },
+          {
+            "group": "ماخذ",
+            "pages": [
+              "sources"
             ]
           }
         ]
@@ -37,7 +70,7 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "Grammar Overview",
+      "label": "گرائمر ہوم",
       "href": "/"
     }
   }
