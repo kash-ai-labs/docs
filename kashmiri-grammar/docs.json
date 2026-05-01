@@ -1,8 +1,8 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "کٲشُر گرائمر",
-  "description": "کٲشُر زبانہٕ خٲطرٕ نَستعلیق منز تیار کرنہٕ آمُت عملی گرائمر دستاویز۔",
+  "name": "‏کٲشُر گرائمر",
+  "description": "‏کٲشُر زبانہٕ خٲطرٕ نَستعلیق منز تیار کرنہٕ آمُت عملی گرائمر دستاویز۔",
   "colors": {
     "primary": "#14532D",
     "light": "#22C55E",
@@ -18,43 +18,43 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "گرائمر",
+        "tab": "‏گرائمر",
         "groups": [
           {
-            "group": "شروع",
+            "group": "‏شروع",
             "pages": [
               "index",
               "script-and-sound"
             ]
           },
           {
-            "group": "اسم تہٕ ضمیر",
+            "group": "‏اسم تہٕ ضمیر",
             "pages": [
               "nouns",
               "pronouns"
             ]
           },
           {
-            "group": "حالت تہٕ نسبت",
+            "group": "‏حالت تہٕ نسبت",
             "pages": [
               "cases-postpositions"
             ]
           },
           {
-            "group": "فعل",
+            "group": "‏فعل",
             "pages": [
               "verbs"
             ]
           },
           {
-            "group": "جُملہ",
+            "group": "‏جُملہ",
             "pages": [
               "sentence-structure",
               "examples"
             ]
           },
           {
-            "group": "ماخذ",
+            "group": "‏ماخذ",
             "pages": [
               "sources"
             ]
@@ -70,7 +70,7 @@
   "navbar": {
     "primary": {
       "type": "button",
-      "label": "گرائمر ہوم",
+      "label": "‏گرائمر ہوم",
       "href": "/"
     }
   }
